@@ -32,12 +32,6 @@ $(document).ready(function(){
       );
     }, 2000);
 
-    $(".mobile_menu .btn").on("click", function(){
-      $(this).toggleClass('active');
-      $(this).toggleClass('not-active');
-      $(".nav_end").toggleClass("d-block")
-    })
-
     $(".work_wrap").on("click", function(){
       var el = $(this);
       var elimg = el.attr("data-imglink");
@@ -48,15 +42,4 @@ $(document).ready(function(){
     $(".close_modal").on("click", function(){
       $(".img_modal_wrap").addClass("d-none");
     })
-
-    $(".mobile_menu .btn").on("click", function(){
-    $(this).toggleClass('active');
-    $(this).toggleClass('not-active');
-    $(".nav_end").toggleClass("d-block")
-  })
-  $(".mobile_menu .btn").on("click", function(){
-    $(this).toggleClass('active');
-    $(this).toggleClass('not-active');
-    $(".nav_end").toggleClass("d-block")
-  })
 })
